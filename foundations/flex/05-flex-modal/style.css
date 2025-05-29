@@ -15,25 +15,48 @@ body {
   justify-content: center;
 }
 
-.modal {
+.main-container {
+  display: flex;
+  padding:  15px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
+  .left{
 
-.icon {
-  color: royalblue;
-  font-size: 26px;
-  font-weight: 700;
-  background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  }
+    .icon {
+      flex-shrink: 0;
+      color: royalblue;
+      font-size: 26px;
+      font-weight: 700;
+      background: lavender;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  .right{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 10px;
+  }
+    .text-container{
+     }
+      .header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+        .header-text{
+          font-weight: 700;
+        }
+    
+
 
 .close-button {
   background: #eee;

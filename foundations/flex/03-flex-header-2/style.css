@@ -25,18 +25,20 @@ body {
   .left{
     display: flex;
     justify-content: start;
+    padding-left: 20px;
   }
-    .logo{
-
-    }
+ 
     .links{
       display: flex;
+      gap: 10px;
     }
 
   .right{
     display: flex;
-    
+    gap:10px;
+    padding-right: 20px;
   }
+   
   .profile-image {
     background: rebeccapurple;
     box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
